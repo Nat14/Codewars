@@ -29,3 +29,6 @@ rate = %w(terrible poor good great excellent).index(rating.downcase)  #=> case w
 #########
 
 [[1,2,2,3,4,4,2,2],[5,8,8,9]].map(&:last) #=> [2, 9]
+
+#########
+2.step(9,3) {|x| puts x.to_s+"x"} #=> 2x 5x 8x step starts from 2 and up by 3 until 9
